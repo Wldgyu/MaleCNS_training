@@ -9983,8 +9983,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4337,
-      "sha256": "61e497f5e18aab5d5325f09a31ba4b092e39e62207f10d91ccaf202ac0fe8a14"
+      "bytes": 3230,
+      "sha256": "77252ddda3d069d66a30332bca1b3eefb8e08dd459c292746c95144a569d0e2a"
     },
     {
       "path": "requirements.txt",
@@ -17626,6 +17626,7 @@
   ],
   "excluded_files_remain_local": true,
   "automatic_github_upload": false,
-  "total_included_bytes": 22001980,
-  "total_excluded_bytes": 5220973591
+  "total_included_bytes": 22000873,
+  "total_excluded_bytes": 5220973591,
+  "readme_updated": "2026-10-13: introductory card, maze, memory and early Gomoku comparison"
 }
