@@ -5,7 +5,7 @@
 이 폴더는 기초 비교 실험을 보존합니다. 이후의 오목 학습 개선과 성장 과정은 별도 `Gomoku_training` 깃 저장소 에서 계속 정리합니다.
 
 # 초파리 연결 데이터 출처
-Fly 모델은 MaleCNS v1.0 공식 공개 데이터의 뉴런 주석과 시냅스 연결을 가공해 사용합니다. 원자료는 FlyEM (HHMI Janelia)·University of Cambridge·MRC LMB·Google Research 공동 프로젝트에서 제공하며, CC BY 4.0으로 배포됩니다. 실제 연결 구조를 인공 순환망에 적용하고 오목·렌주 과제로 별도 학습했습니다. 사용 파일·가공 내용·출처 상세를 참고하세요.
+Fly 모델은 MaleCNS v1.0 공식 공개 데이터의 뉴런 주석과 시냅스 연결을 가공해 사용합니다. 원자료는 FlyEM (HHMI Janelia)·University of Cambridge·MRC LMB·Google Research 공동 프로젝트에서 제공하며, CC BY 4.0으로 배포됩니다. 실제 연결 구조를 인공 순환망에 적용하고 간단한 게임 과제들은 별도 학습했습니다. 사용 파일·가공 내용·출처 상세를 참고하세요.
 
 ## 비교한 모델
 
