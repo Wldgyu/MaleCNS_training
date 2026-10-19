@@ -4,6 +4,8 @@
 
 이 폴더는 기초 비교 실험을 보존합니다. 이후의 오목 학습 개선과 성장 과정은 별도 `Gomoku_training` 깃 저장소 에서 계속 정리합니다.
 
+**후속 요약 (2026-10-19):** 15×15 렌주에서 같은 자료와 같은 학습 횟수로 실제 Fly·재배열 Fly·RNN을 처음부터 학습해 비교했지만 구조 간 일관된 우열은 확인되지 않았습니다. 기초 과제부터 15×15까지를 원래 연구 질문(RQ1~4)에 맞춰 정리한 [통합 연구 보고서](https://github.com/Wldgyu/Gomoku_training/blob/main/docs/RESEARCH_REPORT_20261019.md)는 `Gomoku_training` 저장소에 있습니다.
+
 ## 초파리 연결 데이터 출처
 
 Fly 모델은 [MaleCNS v1.0 공식 공개 데이터](https://male-cns.janelia.org/download/)의 뉴런 주석과 시냅스 연결을 가공해 사용합니다. 원자료는 FlyEM (HHMI Janelia)·University of Cambridge·MRC LMB·Google Research 공동 프로젝트에서 제공하며, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)으로 배포됩니다. 실제 연결 구조를 인공 순환망에 적용하고 간단한 게임 과제들은 별도 학습했습니다. [사용 파일·가공 내용·출처 상세](docs/DATA_SOURCES.md)를 참고하세요.
